@@ -1,0 +1,407 @@
+body, h1, h2, h3, h4, h5, h6, p, button, input, .header {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/*============================= Sidebar Men =============================*/
+.avatar {
+  padding: 20px 0;
+}
+
+.avatar-name {
+  font-size: 30px;
+  padding-top: 3px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.avatar-image {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #eee;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #eee;
+  margin-top: 10px;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #33009f;
+  padding: 1.5em 0.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 0.8em;
+  text-align: center;
+}
+
+.bm-item-list a, .bm-item {
+  font-size: 24px;
+  color: #fff;
+  /*margin: 5px auto;*/
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.bm-item-list a:hover, .bm-item:hover {
+  color: #bc34e1;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*============================= Home Page =============================*/
+.homepage {
+  position: absolute;
+  display: grid;
+  background: url('../images/bar.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-wrapper {
+  margin: auto;
+  padding: 10px;
+}
+
+.headline {
+  font-size: 42px;
+  letter-spacing: 1.3px;
+  color: #fff;
+}
+
+.headline span {
+  padding: 2px 15px;
+  color: #fff;
+  background-color: #bc34e1;
+  opacity: 0.9;
+}
+
+.sub-headline {
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  color: #eee;
+  margin-bottom: 50px;
+}
+
+.sub-headline span {
+  color: #fff;
+  padding: 0px 10px;
+  background-color: #bc34e1;
+  opacity: 0.9;
+}
+
+.find-button{
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.5;
+  padding: .5em 2em;
+  border: none;
+  background-image: linear-gradient( 135deg, #bc34e1 10%, #33009f 100%);
+  text-transform: uppercase;
+
+  /*border: 1px solid #777;*/
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.find-button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*============================= Search Page =============================*/
+.search-page {
+  position: absolute;
+  background-color: #111;
+  height: 100%;
+  width: 100%;
+}
+
+.search-section {
+  text-align: center;
+  height: 70%;
+  min-height: 300px;
+  padding: 180px 10px 0px 10px;
+  background: linear-gradient( 135deg, #bc34e1 10%, #33009f 100%);
+}
+
+.search-input {
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
+  border-radius: 3px;
+  background-color: #eee;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path fill='%238C92A0' d='M11.44 10.73l4.41 4.42a.5.5 0 1 1-.7.7l-4.42-4.41a6.5 6.5 0 1 1 .7-.7v-.01zM6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11z'></path></svg>");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: 20px 20px;
+  border-bottom: 1px solid #C5CBD5;
+  min-width: 300px;
+  max-width: 900px;
+  padding: .5em 1em .5em 2.5em;
+}
+
+.search-input::placeholder{
+  color: #838D99;
+}
+
+.search-input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.search-button{
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  padding: .5em 2em;
+  margin: 30px 30px;
+  border: none;
+  background-color: #eee;
+  text-transform: uppercase;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.data-section {
+  position: relative;
+}
+
+.nothing-found-msg {
+  color: #eee;
+  font-size: 22px;
+  padding: 30px;
+  text-align: center;
+}
+
+.cards-container {
+  justify-content: center;
+  background-color: #111;
+  padding: 30px;
+}
+
+.card {
+  text-align: center;
+  width: 350px !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+}
+
+.card .image {
+  height: 250px;
+}
+
+.card .content {
+  background-color: #fefefe !important;
+}
+
+.card .header {
+  font-size: 24px !important;
+}
+
+.card .rating {
+  padding: 15px 0;
+}
+
+.card-buttons-container {
+  margin-top: 20px;
+}
+
+.going-button {
+  display: block;
+  font-size: 18px;
+  width: 100%;
+  color: #fff;
+  line-height: 1.5;
+  padding: .5em 2em;
+  margin: 10px 0;
+  border: none;
+  background: #bc34e1;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.cancel-going-button {
+  display: block;
+  font-size: 18px;
+  width: 100%;
+  color: #fff;
+  line-height: 1.5;
+  padding: .5em 2em;
+  margin: 10px 0;
+  border: none;
+  background: #DD2C00;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.see-more-button {
+  display: block;
+  font-size: 18px;
+  width: 100%;
+  color: #333;
+  line-height: 1.5;
+  padding: .5em 2em;
+  margin: 10px 0;
+  border: none;
+  background: #fff;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*============================= Loader =============================*/
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 150px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  float: left;
+  margin: 0 5px;
+  transform: scale(0);
+  animation: fx 1000ms ease infinite 0ms;
+}
+
+.dot:nth-child(2) {
+  animation: fx 1000ms ease infinite 300ms;
+}
+
+.dot:nth-child(3) {
+  animation: fx 1000ms ease infinite 600ms;
+}
+
+@keyframes fx {
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*============================= My GoingList Page =============================*/
+
+.mygoinglist-page {
+  position: absolute;
+  background-color: #111;
+  height: 100%;
+  width: 100%;
+}
+
+.mygoinglist-page h2 {
+  color: #eee;
+  text-align: center;
+  padding: 100px 10px 0px 10px;
+}
+
+.no-going-list-msg {
+  color: #eee;
+  font-size: 22px;
+  padding: 100px 40px 0px 40px;
+  text-align: center;
+}
+
+
+/*============================= Sign in Page =============================*/
+
+.signin-page {
+  position: absolute;
+  background: linear-gradient( 135deg, #bc34e1 10%, #33009f 100%);
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  padding: 150px 10px 0px 10px;
+}
+
+.signin-card {
+  background: #111;
+  text-align: center;
+  opacity: 0.8;
+  max-height: 500px;
+  min-height: 250px;
+  max-width: 500px;
+  /*min-width: 400px;*/
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.signin-card h2 {
+  color: #eee;
+}
+
+.google-button {
+  height: 50px;
+  width: 250px;
+  margin-top: 40px;
+  font-size: 20px;
+  border-width: 0;
+  background: #D50000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.05);
+}
+
+.google-button:hover {
+  box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.1);
+}
+
+/*============================= About Page =============================*/
+.about-page {
+  position: absolute;
+  background-color: #111;
+  color: #eee;
+  padding: 100px 36px;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
