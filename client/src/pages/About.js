@@ -9,7 +9,7 @@ class About extends Component {
           <a href="https://www.freecodecamp.org/challenges/build-a-nightlife-coordination-app" rel='noopener noreferrer' target="_blank"> FreeCodeCamp.</a>
         </p>
         <p>I built it using Express, MongoDB, React, Semantic UI and Yelp API.</p>
-        <p>You can find me on <a href='https://twitter.com/ah__bz'  rel='noopener noreferrer' target='_black'>Twitter</a></p>
+        <p>You can find me on <a href='https://twitter.com/Ahmed_bzx'  rel='noopener noreferrer' target='_black'>Twitter</a></p>
       </div>
     )
   }
