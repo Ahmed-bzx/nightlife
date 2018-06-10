@@ -128,10 +128,10 @@ body, h1, h2, h3, h4, h5, h6, p, button, input, .header {
 }
 
 .find-button{
-  font-size: 22px;
+  font-size: 1.5em;
   color: #fff;
   line-height: 1.5;
-  padding: .5em 2em;
+  padding: .5em .8em;
   border: none;
   background-image: linear-gradient( 135deg, #bc34e1 10%, #33009f 100%);
   text-transform: uppercase;
